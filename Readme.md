@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Anna Zigalova](https://up.htmlacademy.ru/htmlcss/23/user/665733).
-* Наставник: [Ольга Вадясова] (https://htmlacademy.ru/profile/ad0v0).
+* Наставник: [Ольга Вадясова](https://htmlacademy.ru/profile/ad0v0).
 
 ---
 
