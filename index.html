@@ -23,16 +23,39 @@
         <main class="container">
             <section class="promo">
                 <img class="promo-pic" src="img/promo-sedona.jpg" width="1200" height="450" alt="Фон">
-                <img src="img/intro-welcome.svg" width="1907" height="1466" alt="Приветствие">
+                <img src="img/intro-welcome.svg" width="459" height="353" alt="Приветствие">
                 <p class="promo-text">Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
                 <p class="promo-info">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
             </section>
             <section class="booking">
                 <h3 class="booking-title">Заинтересовались?</h3>
                 <p class="booking-info">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-                <button class="button button-brown booking-button">Поиск гостиницы в Седоне</button>
-                <img src="img/calendar.svg" width="21" height="22" alt="Календарь">
+                <aside class="search-field">
+                    <button class="button button-brown booking-button">Поиск гостиницы в Седоне</button>
+                    <form class="search-data" method="post" action="#">
+                        <p>
+                            <label for="arriving">Дата заезда:</label>
+                            <input id="arriving" type="text" name="date" placeholder="24 апреля 2017">
+                        </p>
+                        <img src="img/calendar.svg" width="21" height="22" alt="Календарь">
 
+                        <p>
+                            <label for="leaving">Дата выезда:</label>
+                            <input id="leaving" type="text" name="date" placeholder="4 июля 2017">
+                        </p>
+                        <img src="img/calendar.svg" width="21" height="22" alt="Календарь">
+                        
+                        <p>
+                            <label for="adult">Взрослые:</label>
+                            <input id="adult" type="text" name="amount" placeholder="-2+">
+                        </p>
+                        <p>
+                            <label for="children">Дети:</label>
+                            <input id="children" type="text" name="amount" placeholder="-0+">
+                        </p>
+                        <a href="#">найти</a>
+                    </form>
+                </aside>
             </section>
         </main>
         <footer class="main-footer">
@@ -56,7 +79,12 @@
                     </a>
                 </li>
             </ul>
-            <p class="footer-copyright">website by<img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Логотип HTML Academy"></p>
+            <p class="footer-copyright">
+                website by
+                <a href="https://htmlacademy.ru/intensive/htmlcss">
+                    <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Логотип HTML Academy">
+                </a>
+            </p>
         </footer>
     </body>
 </html>
