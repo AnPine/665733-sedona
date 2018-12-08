@@ -13,11 +13,9 @@
                     <li><a href="#">информация</a></li>
                     <li><a href="#">фото и видео</a></li>
                     <li><a href="#">карта штата</a></li>
-                    <li><a href="#">гостиницы</a></li>
+                    <li><a href="catalog.html">гостиницы</a></li>
                 </ul>
-                <a href="#">
                     <img class="logo" src="img/logo-sedona.svg" width="138" height="71" alt="Лого Седоны">
-                </a>
             </nav>
         </header>
         <main class="container">
@@ -30,42 +28,40 @@
             <section class="booking">
                 <h3 class="booking-title">Заинтересовались?</h3>
                 <p class="booking-info">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-                <aside class="search-sedona">
-                    <button class="button button-brown booking-button">Поиск гостиницы в Седоне</button>
+                <section class="search-sedona">
+                    <button class="button button-brown booking-button" type="button">Поиск гостиницы в Седоне</button>
                     <div class="search-field">
                         <form class="search-data" method="get" action="https://echo.htmlacademy.ru">
                             <p>
-                                <label for="arriving">Дата заезда:</label>
-                                <input id="arriving" type="text" name="date" placeholder="24 апреля 2017">
+                                <label for="check-in-date">Дата заезда:</label>
+                                <input id="check-in-date" type="text" name="check-in-date" placeholder="24 апреля 2017">
                             </p>
-                            <button class="button search-button">
+                            <button class="button search-button" type="button">
                                 <img src="img/calendar.svg" width="21" height="22" alt="Календарь">
-
                             </button>
                             <p>
-                                <label for="leaving">Дата выезда:</label>
-                                <input id="leaving" type="text" name="date" placeholder="4 июля 2017">
+                                <label for="check-out-date">Дата выезда:</label>
+                                <input id="check-out-date" type="text" name="check-out-date" placeholder="4 июля 2017">
                             </p>
-                            <button class="button search-button">
+                            <button class="button search-button" type="button">
                                 <img src="img/calendar.svg" width="21" height="22" alt="Календарь">
-
                             </button>
                             <p>
-                                <label for="adult">Взрослые:</label>
-                                <button class="button less-button">
+                                <label for="number-of-adults">Взрослые:</label>
+                                <button class="button button-remove" type="button">
                                     -
                                 </button>
-                                <input id="adult" type="text" name="amount" placeholder="2">
-                                <button class="button more-button">
+                                <input id="number-of-adults" type="text" name="number-of-adults" placeholder="2">
+                                <button class="button button-add">
                                     +
                                 </button>
                             </p>
                             <p>
-                                <label for="children">Дети:</label>
-                                <button class="button less-button">
+                                <label for="number-of-children">Дети:</label>
+                                <button class="button less-button" type="button">
                                     -
                                 </button>
-                                <input id="children" type="text" name="amount" placeholder="0">
+                                <input id="number-of-children" type="text" name="number-of-children" placeholder="0">
                                 <button class="button more-button">
                                     +
                                 </button>
@@ -73,7 +69,7 @@
                             <a href="#">найти</a>
                         </form>
                     </div>
-                </aside>
+                </section>
             </section>
         </main>
         <footer class="main-footer">
@@ -88,7 +84,6 @@
                 <li>
                     <a class="social-btn" href="#">
                         <img src="img/fb-icon.svg" width="12" height="22" alt="Фейсбук">
-
                     </a>
                 </li>
                 <li>
