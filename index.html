@@ -15,7 +15,7 @@
                     <li><a href="#">карта штата</a></li>
                     <li><a href="#">гостиницы</a></li>
                 </ul>
-                <a href="url">
+                <a href="#">
                     <img class="logo" src="img/logo-sedona.svg" width="138" height="71" alt="Лого Седоны">
                 </a>
             </nav>
@@ -30,51 +30,69 @@
             <section class="booking">
                 <h3 class="booking-title">Заинтересовались?</h3>
                 <p class="booking-info">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-                <aside class="search-field">
+                <aside class="search-sedona">
                     <button class="button button-brown booking-button">Поиск гостиницы в Седоне</button>
-                    <form class="search-data" method="post" action="#">
-                        <p>
-                            <label for="arriving">Дата заезда:</label>
-                            <input id="arriving" type="text" name="date" placeholder="24 апреля 2017">
-                        </p>
-                        <img src="img/calendar.svg" width="21" height="22" alt="Календарь">
+                    <div class="search-field">
+                        <form class="search-data" method="get" action="https://echo.htmlacademy.ru">
+                            <p>
+                                <label for="arriving">Дата заезда:</label>
+                                <input id="arriving" type="text" name="date" placeholder="24 апреля 2017">
+                            </p>
+                            <button class="button search-button">
+                                <img src="img/calendar.svg" width="21" height="22" alt="Календарь">
 
-                        <p>
-                            <label for="leaving">Дата выезда:</label>
-                            <input id="leaving" type="text" name="date" placeholder="4 июля 2017">
-                        </p>
-                        <img src="img/calendar.svg" width="21" height="22" alt="Календарь">
-                        
-                        <p>
-                            <label for="adult">Взрослые:</label>
-                            <input id="adult" type="text" name="amount" placeholder="-2+">
-                        </p>
-                        <p>
-                            <label for="children">Дети:</label>
-                            <input id="children" type="text" name="amount" placeholder="-0+">
-                        </p>
-                        <a href="#">найти</a>
-                    </form>
+                            </button>
+                            <p>
+                                <label for="leaving">Дата выезда:</label>
+                                <input id="leaving" type="text" name="date" placeholder="4 июля 2017">
+                            </p>
+                            <button class="button search-button">
+                                <img src="img/calendar.svg" width="21" height="22" alt="Календарь">
+
+                            </button>
+                            <p>
+                                <label for="adult">Взрослые:</label>
+                                <button class="button less-button">
+                                    -
+                                </button>
+                                <input id="adult" type="text" name="amount" placeholder="2">
+                                <button class="button more-button">
+                                    +
+                                </button>
+                            </p>
+                            <p>
+                                <label for="children">Дети:</label>
+                                <button class="button less-button">
+                                    -
+                                </button>
+                                <input id="children" type="text" name="amount" placeholder="0">
+                                <button class="button more-button">
+                                    +
+                                </button>
+                            </p>
+                            <a href="#">найти</a>
+                        </form>
+                    </div>
                 </aside>
             </section>
         </main>
         <footer class="main-footer">
-            <img class="footer-map" src="url" alt="карта">
+            <img class="footer-map" src="#" alt="карта">
             <p class="footer-hashtag">#visitsedona</p>
             <ul class="footer-social">
                 <li>
-                    <a class="social-btn" href="url">
+                    <a class="social-btn" href="#">
                         <img src="img/twitter-icon.svg" width="17" height="15" alt="Твиттер">
                     </a>
                 </li>
                 <li>
-                    <a class="social-btn" href="url">
+                    <a class="social-btn" href="#">
                         <img src="img/fb-icon.svg" width="12" height="22" alt="Фейсбук">
 
                     </a>
                 </li>
                 <li>
-                    <a class="social-btn" href="url">
+                    <a class="social-btn" href="#">
                         <img src="img/youtube-icon.svg" width="20" height="16" alt="Ютьюб">
                     </a>
                 </li>
